@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ポケットモンスター ハートゴールド・ソウルシルバーのジムリーダー、四天王・チャンピオン、レッドの攻略情報">
+    <title>トレーナー攻略 | ポケモンHGSS攻略</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/trainers.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <a class="back-link" href="index.html">← トップページへ戻る</a>
+        <h1>トレーナー攻略</h1>
+        <p>手持ちポケモン・レベル・技構成・再戦条件を確認できます。</p>
+    </header>
+
+    <main class="trainers-main">
+        <section class="filter-panel" aria-label="トレーナー検索">
+            <label for="trainerSearch">トレーナー・ポケモン名で検索</label>
+            <input id="trainerSearch" type="search" placeholder="例：ハヤト、カイリュー、サイコキネシス">
+
+            <label for="battleFilter">対戦区分</label>
+            <select id="battleFilter">
+                <option value="all">すべて表示</option>
+                <option value="normal">通常戦</option>
+                <option value="rematch">再戦・強化版</option>
+                <option value="postgame">殿堂入り後</option>
+            </select>
+            <label for="categoryFilter">カテゴリ</label>
+            <select id="categoryFilter">
+                <option value="all">すべて</option>
+                <option value="gym">ジムリーダー</option>
+                <option value="elite">四天王・チャンピオン</option>
+                <option value="red">レッド</option>
+            </select>
+
+            <button id="resetFilters" type="button">検索条件をリセット</button>
+        </section>
+
+        <p id="resultCount" class="result-count" aria-live="polite"></p>
+
+        <section class="trainer-section" id="gymSection">
+            <h2>ジムリーダー</h2>
+            <p class="section-description">
+                ジョウト・カントーのジムリーダー。通常戦と再戦は別々に表示します。
+            </p>
+            <div class="trainer-list" id="gymList"></div>
+        </section>
+
+        <section class="trainer-section" id="eliteSection">
+            <h2>四天王・チャンピオン</h2>
+            <p class="section-description">
+                初回のポケモンリーグと、グリーン撃破後の強化版を分けて表示します。
+            </p>
+            <div class="trainer-list" id="eliteList"></div>
+        </section>
+
+        <section class="trainer-section" id="redSection">
+            <h2>レッド</h2>
+            <p class="section-description">
+                シロガネやま山頂で戦うポケモントレーナー。
+            </p>
+            <div class="trainer-list" id="redList"></div>
+        </section>
+
+        <section class="sources-section">
+            <h2>参考サイト</h2>
+            <ul>
+                <li>
+                    <a href="https://w.atwiki.jp/hgss/pages/46.html" target="_blank" rel="noopener noreferrer">
+                        HGSS攻略Wiki：強敵トレーナー攻略
+                    </a>
+                </li>
+                <li>
+                    <a href="https://w.atwiki.jp/hgss/pages/47.html" target="_blank" rel="noopener noreferrer">
+                        HGSS攻略Wiki：強化版トレーナー攻略
+                    </a>
+                </li>
+                <li>
+                    <a href="https://w.atwiki.jp/hgss/pages/113.html" target="_blank" rel="noopener noreferrer">
+                        HGSS攻略Wiki：強敵トレーナー攻略2
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/trainers.js"></script>
+</body>
+
+</html>
