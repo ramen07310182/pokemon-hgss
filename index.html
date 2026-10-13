@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HGSS 攻略ツール</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont,
+                "Segoe UI", sans-serif;
+            background: #f2f5fa;
+            color: #263245;
+        }
+
+        header {
+            background: #df4545;
+            color: white;
+            text-align: center;
+            padding: 32px 16px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+
+        h2 {
+            font-size: 19px;
+            margin-bottom: 18px;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .menu-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            border: 1px solid #e2e7ef;
+            border-radius: 16px;
+            padding: 28px 18px;
+            text-decoration: none;
+            color: #263245;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, .04);
+            transition: transform .2s, box-shadow .2s;
+        }
+
+        .menu-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .1);
+        }
+
+        .menu-icon {
+            font-size: 42px;
+        }
+
+        .menu-title {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .menu-description {
+            font-size: 13px;
+            color: #667085;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .coming-soon {
+            opacity: .55;
+            border-style: dashed;
+            cursor: default;
+        }
+
+        .coming-soon:hover {
+            transform: none;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, .04);
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: #667085;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HGSS 攻略ツール</h1>
+        <p>
+            ポケットモンスター
+            ハートゴールド・ソウルシルバー
+        </p>
+    </header>
+
+    <main>
+        <h2>メニュー</h2>
+
+        <div class="menu-grid">
+
+            <!-- ポケモン図鑑 -->
+            <a href="pokedex.html" class="menu-card">
+                <span class="menu-icon">📖</span>
+                <span class="menu-title">ポケモン図鑑</span>
+                <span class="menu-description">
+                    全国図鑑No.001〜493<br>
+                    ポケモン検索・種族値・覚える技・
+                    出現場所・進化情報
+                </span>
+            </a>
+
+            <!-- 今後追加する機能 -->
+            <div class="menu-card coming-soon">
+                <span class="menu-icon">➕</span>
+                <span class="menu-title">今後追加予定</span>
+                <span class="menu-description">
+                    新しい機能をここに追加できます
+                </span>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>HGSS 非公式攻略ツール</p>
+        <p>Pokémon data provided by PokéAPI</p>
+    </footer>
+</body>
+
+</html>

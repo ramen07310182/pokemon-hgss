@@ -1,0 +1,6523 @@
+{
+  "version": "HGSS",
+  "data_version": 2,
+  "count": 10,
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "フシギダネ",
+      "english": "bulbasaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "name": "しんりょく",
+          "hidden": false
+        },
+        {
+          "name": "ようりょくそ",
+          "hidden": true
+        }
+      ],
+      "height": 0.7,
+      "weight": 6.9,
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 45
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/1.png",
+      "moves": [
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 3,
+          "machines": []
+        },
+        {
+          "name": "やどりぎのタネ",
+          "english": "leech-seed",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "つるのムチ",
+          "english": "vine-whip",
+          "method": "level-up",
+          "level": 9,
+          "machines": []
+        },
+        {
+          "name": "どくのこな",
+          "english": "poison-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "ねむりごな",
+          "english": "sleep-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "とっしん",
+          "english": "take-down",
+          "method": "level-up",
+          "level": 15,
+          "machines": []
+        },
+        {
+          "name": "はっぱカッター",
+          "english": "razor-leaf",
+          "method": "level-up",
+          "level": 19,
+          "machines": []
+        },
+        {
+          "name": "あまいかおり",
+          "english": "sweet-scent",
+          "method": "level-up",
+          "level": 21,
+          "machines": []
+        },
+        {
+          "name": "せいちょう",
+          "english": "growth",
+          "method": "level-up",
+          "level": 25,
+          "machines": []
+        },
+        {
+          "name": "すてみタックル",
+          "english": "double-edge",
+          "method": "level-up",
+          "level": 27,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "level-up",
+          "level": 31,
+          "machines": []
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "level-up",
+          "level": 33,
+          "machines": []
+        },
+        {
+          "name": "タネばくだん",
+          "english": "seed-bomb",
+          "method": "level-up",
+          "level": 37,
+          "machines": []
+        },
+        {
+          "name": "あまえる",
+          "english": "charm",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いとをはく",
+          "english": "string-shot",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "くさぶえ",
+          "english": "grass-whistle",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "くさむすび",
+          "english": "grass-knot",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン86"
+          ]
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのちから",
+          "english": "nature-power",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "しんぴのまもり",
+          "english": "safeguard",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "ねをはる",
+          "english": "ingrain",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "のろい",
+          "english": "curse",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "はたきおとす",
+          "english": "knock-off",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "はなびらのまい",
+          "english": "petal-dance",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ひかりのかべ",
+          "english": "light-screen",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "エナジーボール",
+          "english": "energy-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン53"
+          ]
+        },
+        {
+          "name": "ギガドレイン",
+          "english": "giga-drain",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン19"
+          ]
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン22"
+          ]
+        },
+        {
+          "name": "タネばくだん",
+          "english": "seed-bomb",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "タネマシンガン",
+          "english": "bullet-seed",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン09"
+          ]
+        },
+        {
+          "name": "ドわすれ",
+          "english": "amnesia",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "パワーウィップ",
+          "english": "power-whip",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "フラッシュ",
+          "english": "flash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン70"
+          ]
+        },
+        {
+          "name": "ヘドロこうげき",
+          "english": "sludge",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ヘドロばくだん",
+          "english": "sludge-bomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン36"
+          ]
+        },
+        {
+          "name": "マジカルリーフ",
+          "english": "magical-leaf",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        },
+        {
+          "name": "リーフストーム",
+          "english": "leaf-storm",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ロケットずつき",
+          "english": "skull-bash",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        }
+      ],
+      "encounters": {
+        "heartgold": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ],
+        "soulsilver": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ]
+      },
+      "evolution": [
+        {
+          "id": 1,
+          "name": "フシギダネ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 2,
+          "name": "フシギソウ",
+          "from_id": 1,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "フシギバナ",
+          "from_id": 2,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 32,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "フシギソウ",
+      "english": "ivysaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "name": "しんりょく",
+          "hidden": false
+        },
+        {
+          "name": "ようりょくそ",
+          "hidden": true
+        }
+      ],
+      "height": 1.0,
+      "weight": 13.0,
+      "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 60
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/2.png",
+      "moves": [
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "やどりぎのタネ",
+          "english": "leech-seed",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 3,
+          "machines": []
+        },
+        {
+          "name": "やどりぎのタネ",
+          "english": "leech-seed",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "つるのムチ",
+          "english": "vine-whip",
+          "method": "level-up",
+          "level": 9,
+          "machines": []
+        },
+        {
+          "name": "どくのこな",
+          "english": "poison-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "ねむりごな",
+          "english": "sleep-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "とっしん",
+          "english": "take-down",
+          "method": "level-up",
+          "level": 15,
+          "machines": []
+        },
+        {
+          "name": "はっぱカッター",
+          "english": "razor-leaf",
+          "method": "level-up",
+          "level": 20,
+          "machines": []
+        },
+        {
+          "name": "あまいかおり",
+          "english": "sweet-scent",
+          "method": "level-up",
+          "level": 23,
+          "machines": []
+        },
+        {
+          "name": "せいちょう",
+          "english": "growth",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "すてみタックル",
+          "english": "double-edge",
+          "method": "level-up",
+          "level": 31,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "level-up",
+          "level": 36,
+          "machines": []
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "level-up",
+          "level": 39,
+          "machines": []
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "level-up",
+          "level": 44,
+          "machines": []
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いとをはく",
+          "english": "string-shot",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "くさむすび",
+          "english": "grass-knot",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン86"
+          ]
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "はたきおとす",
+          "english": "knock-off",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "エナジーボール",
+          "english": "energy-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン53"
+          ]
+        },
+        {
+          "name": "ギガドレイン",
+          "english": "giga-drain",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン19"
+          ]
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン22"
+          ]
+        },
+        {
+          "name": "タネばくだん",
+          "english": "seed-bomb",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "タネマシンガン",
+          "english": "bullet-seed",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン09"
+          ]
+        },
+        {
+          "name": "フラッシュ",
+          "english": "flash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン70"
+          ]
+        },
+        {
+          "name": "ヘドロばくだん",
+          "english": "sludge-bomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン36"
+          ]
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 1,
+          "name": "フシギダネ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 2,
+          "name": "フシギソウ",
+          "from_id": 1,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "フシギバナ",
+          "from_id": 2,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 32,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "フシギバナ",
+      "english": "venusaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "name": "しんりょく",
+          "hidden": false
+        },
+        {
+          "name": "ようりょくそ",
+          "hidden": true
+        }
+      ],
+      "height": 2.0,
+      "weight": 100.0,
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/3.png",
+      "moves": [
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "つるのムチ",
+          "english": "vine-whip",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "やどりぎのタネ",
+          "english": "leech-seed",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 3,
+          "machines": []
+        },
+        {
+          "name": "やどりぎのタネ",
+          "english": "leech-seed",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "つるのムチ",
+          "english": "vine-whip",
+          "method": "level-up",
+          "level": 9,
+          "machines": []
+        },
+        {
+          "name": "どくのこな",
+          "english": "poison-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "ねむりごな",
+          "english": "sleep-powder",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "とっしん",
+          "english": "take-down",
+          "method": "level-up",
+          "level": 15,
+          "machines": []
+        },
+        {
+          "name": "はっぱカッター",
+          "english": "razor-leaf",
+          "method": "level-up",
+          "level": 20,
+          "machines": []
+        },
+        {
+          "name": "あまいかおり",
+          "english": "sweet-scent",
+          "method": "level-up",
+          "level": 23,
+          "machines": []
+        },
+        {
+          "name": "せいちょう",
+          "english": "growth",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "すてみタックル",
+          "english": "double-edge",
+          "method": "level-up",
+          "level": 31,
+          "machines": []
+        },
+        {
+          "name": "はなびらのまい",
+          "english": "petal-dance",
+          "method": "level-up",
+          "level": 32,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "level-up",
+          "level": 39,
+          "machines": []
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "level-up",
+          "level": 45,
+          "machines": []
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "level-up",
+          "level": 53,
+          "machines": []
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いとをはく",
+          "english": "string-shot",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "くさむすび",
+          "english": "grass-knot",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン86"
+          ]
+        },
+        {
+          "name": "げきりん",
+          "english": "outrage",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こうごうせい",
+          "english": "synthesis",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "じしん",
+          "english": "earthquake",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン26"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "とおせんぼう",
+          "english": "block",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なやみのタネ",
+          "english": "worry-seed",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "はかいこうせん",
+          "english": "hyper-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン15"
+          ]
+        },
+        {
+          "name": "はたきおとす",
+          "english": "knock-off",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ほえる",
+          "english": "roar",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン05"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "エナジーボール",
+          "english": "energy-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン53"
+          ]
+        },
+        {
+          "name": "ギガインパクト",
+          "english": "giga-impact",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン68"
+          ]
+        },
+        {
+          "name": "ギガドレイン",
+          "english": "giga-drain",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン19"
+          ]
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン22"
+          ]
+        },
+        {
+          "name": "タネばくだん",
+          "english": "seed-bomb",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "タネマシンガン",
+          "english": "bullet-seed",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン09"
+          ]
+        },
+        {
+          "name": "ハードプラント",
+          "english": "frenzy-plant",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "フラッシュ",
+          "english": "flash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン70"
+          ]
+        },
+        {
+          "name": "ヘドロばくだん",
+          "english": "sludge-bomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン36"
+          ]
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        },
+        {
+          "name": "ロッククライム",
+          "english": "rock-climb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン08"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 1,
+          "name": "フシギダネ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 2,
+          "name": "フシギソウ",
+          "from_id": 1,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "フシギバナ",
+          "from_id": 2,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 32,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ヒトカゲ",
+      "english": "charmander",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        {
+          "name": "もうか",
+          "hidden": false
+        },
+        {
+          "name": "サンパワー",
+          "hidden": true
+        }
+      ],
+      "height": 0.6,
+      "weight": 8.5,
+      "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 65
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/4.png",
+      "moves": [
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひっかく",
+          "english": "scratch",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひのこ",
+          "english": "ember",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "えんまく",
+          "english": "smokescreen",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "りゅうのいかり",
+          "english": "dragon-rage",
+          "method": "level-up",
+          "level": 16,
+          "machines": []
+        },
+        {
+          "name": "こわいかお",
+          "english": "scary-face",
+          "method": "level-up",
+          "level": 19,
+          "machines": []
+        },
+        {
+          "name": "ほのおのキバ",
+          "english": "fire-fang",
+          "method": "level-up",
+          "level": 25,
+          "machines": []
+        },
+        {
+          "name": "きりさく",
+          "english": "slash",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "level-up",
+          "level": 34,
+          "machines": []
+        },
+        {
+          "name": "ほのおのうず",
+          "english": "fire-spin",
+          "method": "level-up",
+          "level": 37,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "いわなだれ",
+          "english": "rock-slide",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわなだれ",
+          "english": "rock-slide",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン80"
+          ]
+        },
+        {
+          "name": "おにび",
+          "english": "will-o-wisp",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン61"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン35"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "かみくだく",
+          "english": "crunch",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "かみつく",
+          "english": "bite",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "かみなりパンチ",
+          "english": "thunder-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "げきりん",
+          "english": "outrage",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "げんしのちから",
+          "english": "ancient-power",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "だいもんじ",
+          "english": "fire-blast",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン38"
+          ]
+        },
+        {
+          "name": "つばめがえし",
+          "english": "aerial-ace",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン40"
+          ]
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねっぷう",
+          "english": "heat-wave",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "はらだいこ",
+          "english": "belly-drum",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ふくろだたき",
+          "english": "beat-up",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ほのおのパンチ",
+          "english": "fire-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "りゅうのまい",
+          "english": "dragon-dance",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "オーバーヒート",
+          "english": "overheat",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン50"
+          ]
+        },
+        {
+          "name": "カウンター",
+          "english": "counter",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "シャドークロー",
+          "english": "shadow-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン65"
+          ]
+        },
+        {
+          "name": "スピードスター",
+          "english": "swift",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ドラゴンクロー",
+          "english": "dragon-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン02"
+          ]
+        },
+        {
+          "name": "ドラゴンダイブ",
+          "english": "dragon-rush",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "フレアドライブ",
+          "english": "flare-blitz",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メタルクロー",
+          "english": "metal-claw",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ],
+        "soulsilver": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ]
+      },
+      "evolution": [
+        {
+          "id": 4,
+          "name": "ヒトカゲ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 5,
+          "name": "リザード",
+          "from_id": 4,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "リザードン",
+          "from_id": 5,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "リザード",
+      "english": "charmeleon",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        {
+          "name": "もうか",
+          "hidden": false
+        },
+        {
+          "name": "サンパワー",
+          "hidden": true
+        }
+      ],
+      "height": 1.1,
+      "weight": 19.0,
+      "stats": {
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "special-attack": 80,
+        "special-defense": 65,
+        "speed": 80
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/5.png",
+      "moves": [
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひっかく",
+          "english": "scratch",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひのこ",
+          "english": "ember",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひのこ",
+          "english": "ember",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "えんまく",
+          "english": "smokescreen",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "りゅうのいかり",
+          "english": "dragon-rage",
+          "method": "level-up",
+          "level": 17,
+          "machines": []
+        },
+        {
+          "name": "こわいかお",
+          "english": "scary-face",
+          "method": "level-up",
+          "level": 21,
+          "machines": []
+        },
+        {
+          "name": "ほのおのキバ",
+          "english": "fire-fang",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "きりさく",
+          "english": "slash",
+          "method": "level-up",
+          "level": 32,
+          "machines": []
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "level-up",
+          "level": 39,
+          "machines": []
+        },
+        {
+          "name": "ほのおのうず",
+          "english": "fire-spin",
+          "method": "level-up",
+          "level": 43,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "いわなだれ",
+          "english": "rock-slide",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン80"
+          ]
+        },
+        {
+          "name": "おにび",
+          "english": "will-o-wisp",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン61"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン35"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "かみなりパンチ",
+          "english": "thunder-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "だいもんじ",
+          "english": "fire-blast",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン38"
+          ]
+        },
+        {
+          "name": "つばめがえし",
+          "english": "aerial-ace",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン40"
+          ]
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねっぷう",
+          "english": "heat-wave",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ほのおのパンチ",
+          "english": "fire-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "オーバーヒート",
+          "english": "overheat",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン50"
+          ]
+        },
+        {
+          "name": "シャドークロー",
+          "english": "shadow-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン65"
+          ]
+        },
+        {
+          "name": "スピードスター",
+          "english": "swift",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ドラゴンクロー",
+          "english": "dragon-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン02"
+          ]
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 4,
+          "name": "ヒトカゲ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 5,
+          "name": "リザード",
+          "from_id": 4,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "リザードン",
+          "from_id": 5,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "リザードン",
+      "english": "charizard",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "name": "もうか",
+          "hidden": false
+        },
+        {
+          "name": "サンパワー",
+          "hidden": true
+        }
+      ],
+      "height": 1.7,
+      "weight": 90.5,
+      "stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/6.png",
+      "moves": [
+        {
+          "name": "えんまく",
+          "english": "smokescreen",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "なきごえ",
+          "english": "growl",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひっかく",
+          "english": "scratch",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひのこ",
+          "english": "ember",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "エアスラッシュ",
+          "english": "air-slash",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "シャドークロー",
+          "english": "shadow-claw",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ドラゴンクロー",
+          "english": "dragon-claw",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ひのこ",
+          "english": "ember",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "えんまく",
+          "english": "smokescreen",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "りゅうのいかり",
+          "english": "dragon-rage",
+          "method": "level-up",
+          "level": 17,
+          "machines": []
+        },
+        {
+          "name": "こわいかお",
+          "english": "scary-face",
+          "method": "level-up",
+          "level": 21,
+          "machines": []
+        },
+        {
+          "name": "ほのおのキバ",
+          "english": "fire-fang",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "きりさく",
+          "english": "slash",
+          "method": "level-up",
+          "level": 32,
+          "machines": []
+        },
+        {
+          "name": "つばさでうつ",
+          "english": "wing-attack",
+          "method": "level-up",
+          "level": 36,
+          "machines": []
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "level-up",
+          "level": 42,
+          "machines": []
+        },
+        {
+          "name": "ほのおのうず",
+          "english": "fire-spin",
+          "method": "level-up",
+          "level": 49,
+          "machines": []
+        },
+        {
+          "name": "ねっぷう",
+          "english": "heat-wave",
+          "method": "level-up",
+          "level": 59,
+          "machines": []
+        },
+        {
+          "name": "フレアドライブ",
+          "english": "flare-blitz",
+          "method": "level-up",
+          "level": 66,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "あやしいかぜ",
+          "english": "ominous-wind",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いあいぎり",
+          "english": "cut",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン01"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "いわなだれ",
+          "english": "rock-slide",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン80"
+          ]
+        },
+        {
+          "name": "おいかぜ",
+          "english": "tailwind",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "おにび",
+          "english": "will-o-wisp",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン61"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かえんほうしゃ",
+          "english": "flamethrower",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン35"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "かみなりパンチ",
+          "english": "thunder-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいだま",
+          "english": "focus-blast",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン52"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "げきりん",
+          "english": "outrage",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "じしん",
+          "english": "earthquake",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン26"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "そらをとぶ",
+          "english": "fly",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン02"
+          ]
+        },
+        {
+          "name": "たつまき",
+          "english": "twister",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "だいもんじ",
+          "english": "fire-blast",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン38"
+          ]
+        },
+        {
+          "name": "つばめがえし",
+          "english": "aerial-ace",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン40"
+          ]
+        },
+        {
+          "name": "つるぎのまい",
+          "english": "swords-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン75"
+          ]
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "にほんばれ",
+          "english": "sunny-day",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン11"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねっぷう",
+          "english": "heat-wave",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "はかいこうせん",
+          "english": "hyper-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン15"
+          ]
+        },
+        {
+          "name": "はがねのつばさ",
+          "english": "steel-wing",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン47"
+          ]
+        },
+        {
+          "name": "はねやすめ",
+          "english": "roost",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン51"
+          ]
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ほえる",
+          "english": "roar",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン05"
+          ]
+        },
+        {
+          "name": "ほのおのパンチ",
+          "english": "fire-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "りゅうのはどう",
+          "english": "dragon-pulse",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン59"
+          ]
+        },
+        {
+          "name": "れんぞくぎり",
+          "english": "fury-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "エアカッター",
+          "english": "air-cutter",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "オーバーヒート",
+          "english": "overheat",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン50"
+          ]
+        },
+        {
+          "name": "ギガインパクト",
+          "english": "giga-impact",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン68"
+          ]
+        },
+        {
+          "name": "シャドークロー",
+          "english": "shadow-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン65"
+          ]
+        },
+        {
+          "name": "スピードスター",
+          "english": "swift",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ソーラービーム",
+          "english": "solar-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン22"
+          ]
+        },
+        {
+          "name": "ドラゴンクロー",
+          "english": "dragon-claw",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン02"
+          ]
+        },
+        {
+          "name": "ブラストバーン",
+          "english": "blast-burn",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 4,
+          "name": "ヒトカゲ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 5,
+          "name": "リザード",
+          "from_id": 4,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "リザードン",
+          "from_id": 5,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ゼニガメ",
+      "english": "squirtle",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        {
+          "name": "げきりゅう",
+          "hidden": false
+        },
+        {
+          "name": "あめうけざら",
+          "hidden": true
+        }
+      ],
+      "height": 0.5,
+      "weight": 9.0,
+      "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "special-attack": 50,
+        "special-defense": 64,
+        "speed": 43
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/7.png",
+      "moves": [
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "しっぽをふる",
+          "english": "tail-whip",
+          "method": "level-up",
+          "level": 4,
+          "machines": []
+        },
+        {
+          "name": "あわ",
+          "english": "bubble",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "からにこもる",
+          "english": "withdraw",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "みずでっぽう",
+          "english": "water-gun",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "かみつく",
+          "english": "bite",
+          "method": "level-up",
+          "level": 16,
+          "machines": []
+        },
+        {
+          "name": "こうそくスピン",
+          "english": "rapid-spin",
+          "method": "level-up",
+          "level": 19,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "level-up",
+          "level": 22,
+          "machines": []
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "level-up",
+          "level": 25,
+          "machines": []
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "ロケットずつき",
+          "english": "skull-bash",
+          "method": "level-up",
+          "level": 31,
+          "machines": []
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "level-up",
+          "level": 34,
+          "machines": []
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "level-up",
+          "level": 37,
+          "machines": []
+        },
+        {
+          "name": "ハイドロポンプ",
+          "english": "hydro-pump",
+          "method": "level-up",
+          "level": 40,
+          "machines": []
+        },
+        {
+          "name": "あくび",
+          "english": "yawn",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン18"
+          ]
+        },
+        {
+          "name": "あられ",
+          "english": "hail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン07"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "うずしお",
+          "english": "whirlpool",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン05"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "くろいきり",
+          "english": "haze",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こごえるかぜ",
+          "english": "icy-wind",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "ころがる",
+          "english": "rollout",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しおふき",
+          "english": "water-spout",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しおみず",
+          "english": "brine",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン55"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "しねんのずつき",
+          "english": "zen-headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しろいきり",
+          "english": "mist",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "じたばた",
+          "english": "flail",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "たきのぼり",
+          "english": "waterfall",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン07"
+          ]
+        },
+        {
+          "name": "だくりゅう",
+          "english": "muddy-water",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろあそび",
+          "english": "mud-sport",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "なみのり",
+          "english": "surf",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン03"
+          ]
+        },
+        {
+          "name": "ねこだまし",
+          "english": "fake-out",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ふぶき",
+          "english": "blizzard",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン14"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン03"
+          ]
+        },
+        {
+          "name": "みやぶる",
+          "english": "foresight",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れいとうパンチ",
+          "english": "ice-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "れいとうビーム",
+          "english": "ice-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン13"
+          ]
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "アクアジェット",
+          "english": "aqua-jet",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "アクアリング",
+          "english": "aqua-ring",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ジャイロボール",
+          "english": "gyro-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン74"
+          ]
+        },
+        {
+          "name": "ダイビング",
+          "english": "dive",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ミラーコート",
+          "english": "mirror-coat",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        },
+        {
+          "name": "リフレッシュ",
+          "english": "refresh",
+          "method": "egg",
+          "level": 0,
+          "machines": []
+        }
+      ],
+      "encounters": {
+        "heartgold": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ],
+        "soulsilver": [
+          {
+            "area": "pallet-town",
+            "area_id": "pallet-town-area",
+            "method": "もらう",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 100,
+            "conditions": [
+              "story-progress-beat-red"
+            ]
+          }
+        ]
+      },
+      "evolution": [
+        {
+          "id": 7,
+          "name": "ゼニガメ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 8,
+          "name": "カメール",
+          "from_id": 7,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "カメックス",
+          "from_id": 8,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "カメール",
+      "english": "wartortle",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        {
+          "name": "げきりゅう",
+          "hidden": false
+        },
+        {
+          "name": "あめうけざら",
+          "hidden": true
+        }
+      ],
+      "height": 1.0,
+      "weight": 22.5,
+      "stats": {
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "special-attack": 65,
+        "special-defense": 80,
+        "speed": 58
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/8.png",
+      "moves": [
+        {
+          "name": "あわ",
+          "english": "bubble",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "しっぽをふる",
+          "english": "tail-whip",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "しっぽをふる",
+          "english": "tail-whip",
+          "method": "level-up",
+          "level": 4,
+          "machines": []
+        },
+        {
+          "name": "あわ",
+          "english": "bubble",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "からにこもる",
+          "english": "withdraw",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "みずでっぽう",
+          "english": "water-gun",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "かみつく",
+          "english": "bite",
+          "method": "level-up",
+          "level": 16,
+          "machines": []
+        },
+        {
+          "name": "こうそくスピン",
+          "english": "rapid-spin",
+          "method": "level-up",
+          "level": 20,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "level-up",
+          "level": 24,
+          "machines": []
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "level-up",
+          "level": 32,
+          "machines": []
+        },
+        {
+          "name": "ロケットずつき",
+          "english": "skull-bash",
+          "method": "level-up",
+          "level": 36,
+          "machines": []
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "level-up",
+          "level": 40,
+          "machines": []
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "level-up",
+          "level": 44,
+          "machines": []
+        },
+        {
+          "name": "ハイドロポンプ",
+          "english": "hydro-pump",
+          "method": "level-up",
+          "level": 48,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン18"
+          ]
+        },
+        {
+          "name": "あられ",
+          "english": "hail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン07"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "うずしお",
+          "english": "whirlpool",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン05"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "こごえるかぜ",
+          "english": "icy-wind",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "ころがる",
+          "english": "rollout",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しおみず",
+          "english": "brine",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン55"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "しねんのずつき",
+          "english": "zen-headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "たきのぼり",
+          "english": "waterfall",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン07"
+          ]
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "なみのり",
+          "english": "surf",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン03"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ふぶき",
+          "english": "blizzard",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン14"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン03"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "れいとうパンチ",
+          "english": "ice-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "れいとうビーム",
+          "english": "ice-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン13"
+          ]
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ジャイロボール",
+          "english": "gyro-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン74"
+          ]
+        },
+        {
+          "name": "ダイビング",
+          "english": "dive",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 7,
+          "name": "ゼニガメ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 8,
+          "name": "カメール",
+          "from_id": 7,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "カメックス",
+          "from_id": 8,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "カメックス",
+      "english": "blastoise",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        {
+          "name": "げきりゅう",
+          "hidden": false
+        },
+        {
+          "name": "あめうけざら",
+          "hidden": true
+        }
+      ],
+      "height": 1.6,
+      "weight": 85.5,
+      "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 78
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/9.png",
+      "moves": [
+        {
+          "name": "あわ",
+          "english": "bubble",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "からにこもる",
+          "english": "withdraw",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "しっぽをふる",
+          "english": "tail-whip",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "ラスターカノン",
+          "english": "flash-cannon",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "しっぽをふる",
+          "english": "tail-whip",
+          "method": "level-up",
+          "level": 4,
+          "machines": []
+        },
+        {
+          "name": "あわ",
+          "english": "bubble",
+          "method": "level-up",
+          "level": 7,
+          "machines": []
+        },
+        {
+          "name": "からにこもる",
+          "english": "withdraw",
+          "method": "level-up",
+          "level": 10,
+          "machines": []
+        },
+        {
+          "name": "みずでっぽう",
+          "english": "water-gun",
+          "method": "level-up",
+          "level": 13,
+          "machines": []
+        },
+        {
+          "name": "かみつく",
+          "english": "bite",
+          "method": "level-up",
+          "level": 16,
+          "machines": []
+        },
+        {
+          "name": "こうそくスピン",
+          "english": "rapid-spin",
+          "method": "level-up",
+          "level": 20,
+          "machines": []
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "level-up",
+          "level": 24,
+          "machines": []
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "level-up",
+          "level": 28,
+          "machines": []
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "level-up",
+          "level": 32,
+          "machines": []
+        },
+        {
+          "name": "ロケットずつき",
+          "english": "skull-bash",
+          "method": "level-up",
+          "level": 39,
+          "machines": []
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "level-up",
+          "level": 46,
+          "machines": []
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "level-up",
+          "level": 53,
+          "machines": []
+        },
+        {
+          "name": "ハイドロポンプ",
+          "english": "hydro-pump",
+          "method": "level-up",
+          "level": 60,
+          "machines": []
+        },
+        {
+          "name": "あなをほる",
+          "english": "dig",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン28"
+          ]
+        },
+        {
+          "name": "あまごい",
+          "english": "rain-dance",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン18"
+          ]
+        },
+        {
+          "name": "あられ",
+          "english": "hail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン07"
+          ]
+        },
+        {
+          "name": "いばる",
+          "english": "swagger",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン87"
+          ]
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いわくだき",
+          "english": "rock-smash",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン06"
+          ]
+        },
+        {
+          "name": "いわなだれ",
+          "english": "rock-slide",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン80"
+          ]
+        },
+        {
+          "name": "うずしお",
+          "english": "whirlpool",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン05"
+          ]
+        },
+        {
+          "name": "おんがえし",
+          "english": "return",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン27"
+          ]
+        },
+        {
+          "name": "かいりき",
+          "english": "strength",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン04"
+          ]
+        },
+        {
+          "name": "かげぶんしん",
+          "english": "double-team",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン32"
+          ]
+        },
+        {
+          "name": "からげんき",
+          "english": "facade",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン42"
+          ]
+        },
+        {
+          "name": "かわらわり",
+          "english": "brick-break",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン31"
+          ]
+        },
+        {
+          "name": "がんせきふうじ",
+          "english": "rock-tomb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン39"
+          ]
+        },
+        {
+          "name": "きあいだま",
+          "english": "focus-blast",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン52"
+          ]
+        },
+        {
+          "name": "きあいパンチ",
+          "english": "focus-punch",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン01"
+          ]
+        },
+        {
+          "name": "げきりん",
+          "english": "outrage",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こごえるかぜ",
+          "english": "icy-wind",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "こらえる",
+          "english": "endure",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン58"
+          ]
+        },
+        {
+          "name": "ころがる",
+          "english": "rollout",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "しおみず",
+          "english": "brine",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン55"
+          ]
+        },
+        {
+          "name": "しぜんのめぐみ",
+          "english": "natural-gift",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン83"
+          ]
+        },
+        {
+          "name": "しねんのずつき",
+          "english": "zen-headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "じしん",
+          "english": "earthquake",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン26"
+          ]
+        },
+        {
+          "name": "ずつき",
+          "english": "headbutt",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "たきのぼり",
+          "english": "waterfall",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン07"
+          ]
+        },
+        {
+          "name": "てっぺき",
+          "english": "iron-defense",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "どくどく",
+          "english": "toxic",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン06"
+          ]
+        },
+        {
+          "name": "どろかけ",
+          "english": "mud-slap",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "なげつける",
+          "english": "fling",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン56"
+          ]
+        },
+        {
+          "name": "なみのり",
+          "english": "surf",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン03"
+          ]
+        },
+        {
+          "name": "ねごと",
+          "english": "sleep-talk",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン82"
+          ]
+        },
+        {
+          "name": "ねむる",
+          "english": "rest",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン44"
+          ]
+        },
+        {
+          "name": "はかいこうせん",
+          "english": "hyper-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン15"
+          ]
+        },
+        {
+          "name": "ひみつのちから",
+          "english": "secret-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン43"
+          ]
+        },
+        {
+          "name": "ふぶき",
+          "english": "blizzard",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン14"
+          ]
+        },
+        {
+          "name": "ほえる",
+          "english": "roar",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン05"
+          ]
+        },
+        {
+          "name": "まもる",
+          "english": "protect",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン17"
+          ]
+        },
+        {
+          "name": "みがわり",
+          "english": "substitute",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン90"
+          ]
+        },
+        {
+          "name": "みずのはどう",
+          "english": "water-pulse",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン03"
+          ]
+        },
+        {
+          "name": "めざめるパワー",
+          "english": "hidden-power",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン10"
+          ]
+        },
+        {
+          "name": "やつあたり",
+          "english": "frustration",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン21"
+          ]
+        },
+        {
+          "name": "ゆうわく",
+          "english": "captivate",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン78"
+          ]
+        },
+        {
+          "name": "ゆきなだれ",
+          "english": "avalanche",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン72"
+          ]
+        },
+        {
+          "name": "れいとうパンチ",
+          "english": "ice-punch",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "れいとうビーム",
+          "english": "ice-beam",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン13"
+          ]
+        },
+        {
+          "name": "アイアンテール",
+          "english": "iron-tail",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン23"
+          ]
+        },
+        {
+          "name": "アクアテール",
+          "english": "aqua-tail",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ギガインパクト",
+          "english": "giga-impact",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン68"
+          ]
+        },
+        {
+          "name": "シグナルビーム",
+          "english": "signal-beam",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ジャイロボール",
+          "english": "gyro-ball",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン74"
+          ]
+        },
+        {
+          "name": "ダイビング",
+          "english": "dive",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "ハイドロカノン",
+          "english": "hydro-cannon",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "メロメロ",
+          "english": "attract",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン45"
+          ]
+        },
+        {
+          "name": "ラスターカノン",
+          "english": "flash-cannon",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "わざマシン91"
+          ]
+        },
+        {
+          "name": "ロッククライム",
+          "english": "rock-climb",
+          "method": "machine",
+          "level": 0,
+          "machines": [
+            "ひでんマシン08"
+          ]
+        }
+      ],
+      "encounters": {
+        "heartgold": [],
+        "soulsilver": []
+      },
+      "evolution": [
+        {
+          "id": 7,
+          "name": "ゼニガメ",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 8,
+          "name": "カメール",
+          "from_id": 7,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 16,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "カメックス",
+          "from_id": 8,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 36,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "キャタピー",
+      "english": "caterpie",
+      "types": [
+        "bug"
+      ],
+      "abilities": [
+        {
+          "name": "りんぷん",
+          "hidden": false
+        },
+        {
+          "name": "にげあし",
+          "hidden": true
+        }
+      ],
+      "height": 0.3,
+      "weight": 2.9,
+      "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "special-attack": 20,
+        "special-defense": 20,
+        "speed": 45
+      },
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/10.png",
+      "moves": [
+        {
+          "name": "いとをはく",
+          "english": "string-shot",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "たいあたり",
+          "english": "tackle",
+          "method": "level-up",
+          "level": 1,
+          "machines": []
+        },
+        {
+          "name": "むしくい",
+          "english": "bug-bite",
+          "method": "level-up",
+          "level": 15,
+          "machines": []
+        },
+        {
+          "name": "いとをはく",
+          "english": "string-shot",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "いびき",
+          "english": "snore",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        },
+        {
+          "name": "むしくい",
+          "english": "bug-bite",
+          "method": "tutor",
+          "level": 0,
+          "machines": []
+        }
+      ],
+      "encounters": {
+        "heartgold": [
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "headbutt",
+            "min_level": 3,
+            "max_level": 5,
+            "chance": 15,
+            "conditions": [
+              "headbutt-tree-common"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "headbutt",
+            "min_level": 3,
+            "max_level": 5,
+            "chance": 15,
+            "conditions": [
+              "headbutt-tree-common"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 20,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 6,
+            "max_level": 6,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 6,
+            "max_level": 6,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 6,
+            "max_level": 6,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "ilex-forest",
+            "area_id": "ilex-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 6,
+            "max_level": 6,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 4,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "johto-route-30",
+            "area_id": "johto-route-30-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 1,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 20,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 4,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 4,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 1,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "johto-route-31",
+            "area_id": "johto-route-31-area",
+            "method": "草むら・洞窟",
+            "min_level": 5,
+            "max_level": 5,
+            "chance": 1,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 1,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "kanto-route-2（北側・towards・pewter・city）",
+            "area_id": "kanto-route-2-north-towards-pewter-city",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 1,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 1,
+            "conditions": [
+              "朝"
+            ]
+          },
+          {
+            "area": "kanto-route-2（南側・towards・viridian・city）",
+            "area_id": "kanto-route-2-south-towards-viridian-city",
+            "method": "草むら・洞窟",
+            "min_level": 4,
+            "max_level": 4,
+            "chance": 1,
+            "conditions": [
+              "昼"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 7,
+            "max_level": 18,
+            "chance": 20,
+            "conditions": [
+              "bug-catching-contest-yes",
+              "story-progress-before-national-dex"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 20,
+            "conditions": [
+              "朝",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 20,
+            "conditions": [
+              "昼",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 10,
+            "conditions": [
+              "昼",
+              "radio-off",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 10,
+            "conditions": [
+              "朝",
+              "radio-off",
+              "bug-catching-contest-no"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 24,
+            "max_level": 36,
+            "chance": 20,
+            "conditions": [
+              "bug-catching-contest-yes",
+              "story-progress-national-dex",
+              "weekday-tuesday"
+            ]
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 20,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 20,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 10,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 10,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 4,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 10,
+            "max_level": 10,
+            "chance": 1,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 10,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 10,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 5,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 12,
+            "max_level": 12,
+            "chance": 5,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 14,
+            "max_level": 14,
+            "chance": 4,
+            "conditions": []
+          },
+          {
+            "area": "unknown-all-bugs",
+            "area_id": "unknown-all-bugs-area",
+            "method": "草むら・洞窟",
+            "min_level": 14,
+            "max_level": 14,
+            "chance": 1,
+            "conditions": []
+          },
+          {
+            "area": "viridian-forest",
+            "area_id": "viridian-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "大量発生なし",
+              "朝"
+            ]
+          },
+          {
+            "area": "viridian-forest",
+            "area_id": "viridian-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "大量発生なし",
+              "昼"
+            ]
+          },
+          {
+            "area": "viridian-forest",
+            "area_id": "viridian-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "大量発生なし",
+              "朝"
+            ]
+          },
+          {
+            "area": "viridian-forest",
+            "area_id": "viridian-forest-area",
+            "method": "草むら・洞窟",
+            "min_level": 3,
+            "max_level": 3,
+            "chance": 20,
+            "conditions": [
+              "大量発生なし",
+              "昼"
+            ]
+          }
+        ],
+        "soulsilver": [
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 7,
+            "max_level": 18,
+            "chance": 20,
+            "conditions": [
+              "bug-catching-contest-yes",
+              "story-progress-before-national-dex"
+            ]
+          },
+          {
+            "area": "national-park",
+            "area_id": "national-park-area",
+            "method": "草むら・洞窟",
+            "min_level": 24,
+            "max_level": 36,
+            "chance": 20,
+            "conditions": [
+              "bug-catching-contest-yes",
+              "story-progress-national-dex",
+              "weekday-tuesday"
+            ]
+          }
+        ]
+      },
+      "evolution": [
+        {
+          "id": 10,
+          "name": "キャタピー",
+          "from_id": null,
+          "conditions": []
+        },
+        {
+          "id": 11,
+          "name": "トランセル",
+          "from_id": 10,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 7,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "バタフリー",
+          "from_id": 11,
+          "conditions": [
+            {
+              "trigger": "level-up",
+              "min_level": 10,
+              "min_happiness": null,
+              "min_beauty": null,
+              "min_affection": null,
+              "time_of_day": "",
+              "gender": null,
+              "relative_physical_stats": null,
+              "needs_overworld_rain": false,
+              "turn_upside_down": false,
+              "item": null,
+              "held_item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "party_species": null,
+              "party_type": null,
+              "trade_species": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

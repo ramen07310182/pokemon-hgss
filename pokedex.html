@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HGSS ポケモン図鑑</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/translations.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>HGSS ポケモン図鑑</h1>
+        <p>全国図鑑 No.001〜493</p>
+    </header>
+
+    <main>
+        <nav style="margin-bottom:16px;">
+            <a href="index.html" style="color:#df4545;text-decoration:none;">
+                ← トップページへ戻る
+            </a>
+        </nav>
+
+        <section class="search-panel">
+            <input id="search" type="search" placeholder="名前・英語名・図鑑番号で検索" aria-label="ポケモン検索">
+
+            <div class="filters">
+                <select id="typeFilter" aria-label="タイプ">
+                    <option value="">すべてのタイプ</option>
+                </select>
+
+                <select id="versionFilter" aria-label="出現バージョン">
+                    <option value="">すべてのポケモン</option>
+                    <option value="heartgold">
+                        HGに野生出現
+                    </option>
+                    <option value="soulsilver">
+                        SSに野生出現
+                    </option>
+                    <option value="hg-only">
+                        HGのみ野生出現
+                    </option>
+                    <option value="ss-only">
+                        SSのみ野生出現
+                    </option>
+                </select>
+            </div>
+
+            <p id="count">データを読み込み中...</p>
+        </section>
+
+        <!-- ポケモン一覧 -->
+        <section id="pokemonList" class="pokemon-grid">
+        </section>
+
+        <div class="more-area">
+            <button id="moreButton" hidden>
+                さらに表示
+            </button>
+        </div>
+    </main>
+
+    <!-- ポケモン詳細 -->
+    <div id="modal" class="modal" hidden>
+        <div class="modal-backdrop" id="backdrop"></div>
+
+        <article class="modal-content" role="dialog" aria-modal="true" aria-label="ポケモン詳細">
+
+            <button id="closeButton" class="close-button" aria-label="閉じる">
+                ×
+            </button>
+
+            <div id="pokemonDetail"></div>
+        </article>
+    </div>
+
+    <footer>
+        <p>Pokémon data provided by PokéAPI</p>
+        <p>非公式ファンサイト</p>
+    </footer>
+</body>
+
+</html>
