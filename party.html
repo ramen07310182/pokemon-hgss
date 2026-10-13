@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ポケットモンスター ハートゴールド・ソウルシルバーのストーリー攻略向け旅パ候補">
+    <title>旅パおすすめ | HGSS 攻略ツール</title>
+
+    <link rel="stylesheet" href="css/party.css">
+    <script src="js/party.js" defer></script>
+</head>
+
+<body>
+    <header class="party-header">
+        <div class="party-header-inner">
+            <a class="party-back-link" href="index.html">← トップページへ戻る</a>
+            <h1>⭐ HGSS 旅パおすすめ</h1>
+            <p>お気に入りのポケモンを選んで、自分だけの冒険チームを考えよう！</p>
+        </div>
+    </header>
+
+    <main class="party-main">
+
+        <section class="party-settings">
+            <div class="party-setting-card">
+                <label for="versionSelect">🎮 ゲームバージョン</label>
+                <select id="versionSelect">
+                    <option value="heartgold">ハートゴールド</option>
+                    <option value="soulsilver">ソウルシルバー</option>
+                </select>
+            </div>
+
+            <div class="party-setting-card">
+                <label for="starterSelect">🌱 最初に選ぶポケモン</label>
+                <select id="starterSelect">
+                    <option value="152">チコリータ</option>
+                    <option value="155">ヒノアラシ</option>
+                    <option value="158" selected>ワニノコ</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="party-notice">
+            💡 6匹固定ではなく、好きなポケモンを選べる候補リストです。
+            バージョンと御三家を切り替えて、自分に合う旅パを探しましょう！
+        </div>
+
+        <!-- ひでん要員：初期状態は閉じる -->
+        <details class="party-section is-collapsible" id="hmSection">
+            <summary class="party-section-summary">
+                <span class="summary-icon">🧭</span>
+                <span class="summary-text">
+                    <strong>ひでん要員</strong>
+                    <small>移動用の技を担当するポケモン</small>
+                </span>
+                <span class="summary-action"></span>
+            </summary>
+
+            <div class="party-collapse-content">
+                <p class="party-section-description">
+                    通常のバトル候補とは別枠で紹介します。
+                    殿堂入り前と殿堂入り後の候補を区別しています。
+                </p>
+
+                <div class="party-card-grid">
+
+                    <article class="party-card party-hm-card">
+                        <div class="party-hm-image pokemon-image-placeholder" aria-hidden="true">🦆</div>
+
+                        <div class="party-card-top">
+                            <div>
+                                <div class="party-card-subtitle">No. 083</div>
+                                <h3>カモネギ</h3>
+                            </div>
+                        </div>
+
+                        <div class="party-tag-list">
+                            <span class="party-tag">ノーマル</span>
+                            <span class="party-tag">ひこう</span>
+                            <span class="party-tag party-tag-pre">殿堂入り前候補</span>
+                        </div>
+
+                        <p>移動用の技を担当する候補。戦闘用の技とひでん技の両立を検討します。</p>
+
+                        <div class="party-moves">
+                            <h4>ひでん技・構成</h4>
+                            <ul>
+                                <li>要確認</li>
+                            </ul>
+                            <p class="party-card-subtitle">
+                                HG／SSでの習得可否と技の組み合わせを確認して確定します。
+                            </p>
+                        </div>
+
+                        <p class="party-card-subtitle">入手場所・条件：確認後に掲載</p>
+                        <a class="party-card-link" href="pokedex.html">図鑑を見る →</a>
+                    </article>
+
+                    <article class="party-card party-hm-card">
+                        <div class="party-hm-image pokemon-image-placeholder" aria-hidden="true">🐉</div>
+
+                        <div class="party-card-top">
+                            <div>
+                                <div class="party-card-subtitle">No. 130</div>
+                                <h3>ギャラドス</h3>
+                            </div>
+                        </div>
+
+                        <div class="party-tag-list">
+                            <span class="party-tag">みず</span>
+                            <span class="party-tag">ひこう</span>
+                            <span class="party-tag party-tag-pre">殿堂入り前候補</span>
+                        </div>
+
+                        <p>移動用の技を覚えさせながら、攻撃役としても活用する候補です。</p>
+
+                        <div class="party-moves">
+                            <h4>ひでん技・構成</h4>
+                            <ul>
+                                <li>なみのり候補</li>
+                                <li>たきのぼり候補</li>
+                            </ul>
+                            <p class="party-card-subtitle">
+                                技枠や習得条件を確認し、最終的な構成を決めます。
+                            </p>
+                        </div>
+
+                        <p class="party-card-subtitle">入手場所・条件：赤いギャラドスなどを含め確認予定</p>
+                        <a class="party-card-link" href="pokedex.html">図鑑を見る →</a>
+                    </article>
+
+                    <article class="party-card party-hm-card">
+                        <div class="party-hm-image pokemon-image-placeholder" aria-hidden="true">🦆</div>
+
+                        <div class="party-card-top">
+                            <div>
+                                <div class="party-card-subtitle">No. 055</div>
+                                <h3>ゴルダック</h3>
+                            </div>
+                        </div>
+
+                        <div class="party-tag-list">
+                            <span class="party-tag">みず</span>
+                            <span class="party-tag party-tag-post">殿堂入り後の候補</span>
+                        </div>
+
+                        <p>クリア後の移動用候補。殿堂入り前の攻略候補とは分けて扱います。</p>
+
+                        <div class="party-moves">
+                            <h4>ひでん技・構成</h4>
+                            <ul>
+                                <li>なみのり候補</li>
+                                <li>かいりき候補</li>
+                            </ul>
+                            <p class="party-card-subtitle">
+                                習得できるひでん技と入手条件を確認して確定します。
+                            </p>
+                        </div>
+
+                        <p class="party-card-subtitle">入手場所・条件：確認後に掲載</p>
+                        <a class="party-card-link" href="pokedex.html">図鑑を見る →</a>
+                    </article>
+
+                </div>
+            </div>
+        </details>
+
+        <!-- 御三家：常時表示 -->
+        <section class="party-section">
+            <h2>🌟 御三家</h2>
+            <p class="party-section-description">
+                選んだ御三家の画像・役割・技構成の候補を表示します。
+            </p>
+            <div id="starterResult" aria-live="polite">
+                <p class="party-empty">御三家を選択してください。</p>
+            </div>
+        </section>
+
+        <!-- 旅パ候補：初期状態は閉じる -->
+        <details class="party-section is-collapsible" id="candidateSection">
+            <summary class="party-section-summary">
+                <span class="summary-icon">⚔️</span>
+                <span class="summary-text">
+                    <strong>おすすめ旅パ候補</strong>
+                    <small>御三家以外から選べるストーリー攻略向けポケモン</small>
+                </span>
+                <span class="summary-action"></span>
+            </summary>
+
+            <div class="party-collapse-content">
+                <p class="party-section-description">
+                    候補は固定の6匹ではありません。気に入ったポケモンを選んでください。
+                </p>
+
+                <div id="candidateStatus" class="party-notice" aria-live="polite">
+                    候補データを準備しています。
+                </div>
+
+                <div id="candidateList" class="party-card-grid"></div>
+            </div>
+        </details>
+
+        <section class="party-section">
+            <h2>📘 技構成について</h2>
+            <div class="party-notice">
+                技構成はHG／SS（第4世代）の習得方法を基準にします。
+                レベル技・わざマシン・ひでんマシンの違いを確認し、
+                実際に入手できる時期に合わせて情報を整えていきます。
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="party-footer">
+        <p>HGSS 非公式攻略ツール</p>
+        <p>Pokémon data provided by PokéAPI</p>
+    </footer>
+</body>
+
+</html>
