@@ -984,3 +984,29 @@ button:focus-visible {
         padding: 12px;
     }
 }
+
+
+/* ========================================
+   ポケモンのレベル表示を強調
+   ======================================== */
+
+.pokemon-level {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 5px 6px 5px 0;
+
+    color: #302309;
+    background: linear-gradient(135deg, #ffe9a3, #f4c45d);
+
+    border: 1px solid #ffdc79;
+    border-radius: 6px;
+
+    font-size: 0.95rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+    box-shadow:
+        0 2px 5px rgb(0 0 0 / 25%),
+        inset 0 1px rgb(255 255 255 / 45%);
+    text-shadow: none;
+}
