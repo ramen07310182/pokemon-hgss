@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#24334b">
+    <title>ポケモン育成道場 | HGSS 攻略ツール</title>
+    <link rel="stylesheet" href="css/training.css">
+    <script src="js/training.js" defer></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html" class="back-link">← メニューへ戻る</a>
+
+        <div class="header-emblem" aria-hidden="true">道場</div>
+        <p class="header-kicker">HGSS TRAINING DOJO</p>
+        <h1>ポケモン育成道場</h1>
+        <p class="header-description">
+            性格・努力値・特訓のコツをマスターしよう！
+        </p>
+
+        <div class="header-badges">
+            <span>⚔ 性格を知る</span>
+            <span>★ 努力値を鍛える</span>
+            <span>◆ 強さを磨く</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="panel nature-panel">
+            <div class="section-heading">
+                <span class="section-number">01</span>
+                <div>
+                    <p class="section-kicker">NATURE TRAINING</p>
+                    <h2>性格トレーニング表</h2>
+                </div>
+            </div>
+
+            <p class="description">
+                性格によって、HP以外の能力に補正がかかります。
+                上昇する能力は約1.1倍、下降する能力は約0.9倍です。
+            </p>
+
+            <div class="nature-legend">
+                <span class="nature-up">▲ 上昇する能力</span>
+                <span class="nature-down">▼ 下降する能力</span>
+                <span class="nature-neutral">● 補正なし</span>
+            </div>
+
+            <div class="filter-grid">
+                <label>
+                    <span class="label-icon">▲</span>
+                    上昇する能力
+                    <select id="natureUpFilter">
+                        <option value="all">すべて</option>
+                        <option value="none">なし</option>
+                        <option value="attack">攻撃</option>
+                        <option value="defense">防御</option>
+                        <option value="special-attack">特攻</option>
+                        <option value="special-defense">特防</option>
+                        <option value="speed">素早さ</option>
+                    </select>
+                </label>
+
+                <label>
+                    <span class="label-icon">▼</span>
+                    下降する能力
+                    <select id="natureDownFilter">
+                        <option value="all">すべて</option>
+                        <option value="none">なし</option>
+                        <option value="attack">攻撃</option>
+                        <option value="defense">防御</option>
+                        <option value="special-attack">特攻</option>
+                        <option value="special-defense">特防</option>
+                        <option value="speed">素早さ</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="table-wrap nature-table-wrap">
+                <table class="nature-table">
+                    <thead>
+                        <tr>
+                            <th>性格</th>
+                            <th>上昇する能力</th>
+                            <th>下降する能力</th>
+                        </tr>
+                    </thead>
+                    <tbody id="natureTableBody"></tbody>
+                </table>
+            </div>
+
+            <p id="natureCount" class="small-note"></p>
+        </section>
+
+        <section class="panel effort-panel">
+            <div class="section-heading">
+                <span class="section-number">02</span>
+                <div>
+                    <p class="section-kicker">EFFORT VALUE QUEST</p>
+                    <h2>努力値の特訓メニュー</h2>
+                </div>
+            </div>
+
+            <p class="description">
+                育成の進行度に合わせて、努力値稼ぎにおすすめの
+                野生ポケモンと出現場所を探せます。
+            </p>
+
+            <div class="stage-selector">
+                <label class="stage-option">
+                    <input type="radio" name="effortStage" value="early" checked>
+                    <span class="stage-card stage-early">
+                        <span class="stage-icon">🌱</span>
+                        <span class="stage-title">ジョウト序盤</span>
+                        <span class="stage-caption">旅の途中でコツコツ特訓</span>
+                    </span>
+                </label>
+
+                <label class="stage-option">
+                    <input type="radio" name="effortStage" value="postgame">
+                    <span class="stage-card stage-postgame">
+                        <span class="stage-icon">🏆</span>
+                        <span class="stage-title">殿堂入り後</span>
+                        <span class="stage-caption">クリア後の場所も活用</span>
+                    </span>
+                </label>
+            </div>
+
+            <div class="filter-grid">
+                <label>
+                    <span class="label-icon">★</span>
+                    鍛えたい能力
+                    <select id="effortStat">
+                        <option value="hp">HP</option>
+                        <option value="attack">攻撃</option>
+                        <option value="defense">防御</option>
+                        <option value="special-attack">特攻</option>
+                        <option value="special-defense">特防</option>
+                        <option value="speed">素早さ</option>
+                    </select>
+                </label>
+
+                <label>
+                    <span class="label-icon">◆</span>
+                    バージョン
+                    <select id="effortVersion">
+                        <option value="both">HG・SS両方</option>
+                        <option value="heartgold">ハートゴールド</option>
+                        <option value="soulsilver">ソウルシルバー</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="info-box">
+                <strong>🥋 特訓のポイント</strong>
+                <p id="effortStageDescription">
+                    序盤に訪れやすい道路や施設を優先して表示します。
+                </p>
+            </div>
+
+            <div id="effortStatus" class="status-message" role="status">
+                ポケモンデータを読み込んでいます……
+            </div>
+
+            <div id="effortResults" class="recommendation-list"></div>
+        </section>
+
+        <section class="panel calculator-panel">
+            <div class="section-heading">
+                <span class="section-number">03</span>
+                <div>
+                    <p class="section-kicker">EFFORT CALCULATOR</p>
+                    <h2>努力値の獲得量計算</h2>
+                </div>
+            </div>
+
+            <p class="description">
+                倒すポケモン、パワー系アイテム、ポケルスの有無を選んで、
+                目標努力値までに必要な撃破数の目安を計算します。
+            </p>
+
+            <div class="filter-grid">
+                <label>
+                    対象ポケモン
+                    <select id="calculatorPokemon">
+                        <option value="">ポケモンを選択</option>
+                    </select>
+                </label>
+
+                <label>
+                    鍛えたい能力
+                    <select id="calculatorStat">
+                        <option value="hp">HP</option>
+                        <option value="attack">攻撃</option>
+                        <option value="defense">防御</option>
+                        <option value="special-attack">特攻</option>
+                        <option value="special-defense">特防</option>
+                        <option value="speed">素早さ</option>
+                    </select>
+                </label>
+
+                <label>
+                    パワー系アイテム
+                    <select id="powerItem">
+                        <option value="none">持たせない</option>
+                        <option value="hp">パワーウエイト（HP）</option>
+                        <option value="attack">パワーリスト（攻撃）</option>
+                        <option value="defense">パワーベルト（防御）</option>
+                        <option value="special-attack">パワーレンズ（特攻）</option>
+                        <option value="special-defense">パワーバンド（特防）</option>
+                        <option value="speed">パワーアンクル（素早さ）</option>
+                    </select>
+                </label>
+
+                <label>
+                    目標努力値
+                    <select id="targetEffort">
+                        <option value="252">252</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="custom">任意の値</option>
+                    </select>
+                </label>
+
+                <label id="customTargetWrap" class="hidden">
+                    任意の目標値（0～252）
+                    <input id="customTarget" type="number" min="0" max="252" value="252">
+                </label>
+            </div>
+
+            <label class="check-row">
+                <input id="pokerus" type="checkbox">
+                <span>ポケルスに感染している</span>
+            </label>
+
+            <button id="calculateButton" class="primary-button" type="button">
+                ⚔ 獲得努力値を計算する
+            </button>
+
+            <div id="calculatorResult" class="calculation-result" aria-live="polite">
+                ポケモンを選択して計算してください。
+            </div>
+
+            <p class="small-note">
+                ※ 選択した能力について計算します。現在の努力値や、
+                ほかの能力の努力値は含めません。
+            </p>
+        </section>
+
+        <section class="panel guide-panel">
+            <div class="section-heading">
+                <span class="section-number">04</span>
+                <div>
+                    <p class="section-kicker">TRAINING KNOWLEDGE</p>
+                    <h2>育成の基礎知識</h2>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <h3>📘 努力値とは？</h3>
+                <p>
+                    ポケモンを倒したときに得られる、能力育成用のポイントです。
+                    どのポケモンを倒すかによって、得られる能力と量が変わります。
+                </p>
+                <ul>
+                    <li>1つの能力に実用上最大252まで振るのが一般的です。</li>
+                    <li>全能力の合計上限は510です。</li>
+                    <li>努力値は種族値とは別の要素です。</li>
+                </ul>
+            </div>
+
+            <div class="guide-card pokerus-card">
+                <h3>🦠 ポケルス</h3>
+                <p>
+                    ポケルスは、戦闘で得られる努力値を2倍にする特殊な状態です。
+                    パワー系アイテムと併用できます。
+                </p>
+                <p>
+                    例：努力値1のポケモンを倒し、対応するパワー系アイテムを
+                    持たせてポケルスにも感染している場合、
+                    対応能力の獲得量は（1＋4）×2＝10です。
+                </p>
+            </div>
+
+            <div class="guide-card power-item-card">
+                <h3>💪 パワー系アイテム</h3>
+                <p>
+                    HGSSでは、対応する努力値を1回の戦闘につき追加で4獲得できます。
+                    対応する能力以外の努力値には、この追加分は入りません。
+                </p>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>アイテム</th>
+                                <th>追加される能力</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>パワーウエイト</td>
+                                <td>HP</td>
+                            </tr>
+                            <tr>
+                                <td>パワーリスト</td>
+                                <td>攻撃</td>
+                            </tr>
+                            <tr>
+                                <td>パワーベルト</td>
+                                <td>防御</td>
+                            </tr>
+                            <tr>
+                                <td>パワーレンズ</td>
+                                <td>特攻</td>
+                            </tr>
+                            <tr>
+                                <td>パワーバンド</td>
+                                <td>特防</td>
+                            </tr>
+                            <tr>
+                                <td>パワーアンクル</td>
+                                <td>素早さ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="small-note">
+                    ※ パワー系アイテムは主にバトルフロンティアのBP交換で入手します。
+                    殿堂入り前の育成では、未入手の場合は持たせずに計算してください。
+                </p>
+            </div>
+
+            <div class="guide-card">
+                <h3>⚠ 努力値稼ぎの注意点</h3>
+                <ul>
+                    <li>目的の能力に努力値が入るポケモンを倒しましょう。</li>
+                    <li>パワー系アイテムは、対応する能力を確認して装備しましょう。</li>
+                    <li>既に努力値を獲得している場合は、残りの必要量で計算しましょう。</li>
+                    <li>能力ごとの上限や、努力値の合計上限を超えて振ることはできません。</li>
+                </ul>
+            </div>
+        </section>
+
+        <p class="bottom-link">
+            <a href="index.html">← メニューへ戻る</a>
+        </p>
+    </main>
+
+    <footer>
+        HGSS 非公式攻略ツール
+    </footer>
+</body>
+
+</html>
