@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#8d3037">
+    <title>TIPS | HGSS 攻略ツール</title>
+    <link rel="stylesheet" href="css/tips.css">
+    <script src="js/tips.js" defer></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html" class="back-link">← メニューへ戻る</a>
+
+        <div class="header-content">
+            <div class="header-icon" aria-hidden="true">📔</div>
+            <p class="header-eyebrow">HEARTGOLD / SOULSILVER</p>
+            <h1>冒険のTIPSノート</h1>
+            <p class="header-description">
+                知っておくと冒険がもっと便利になる攻略メモ
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome-card">
+            <div class="welcome-icon" aria-hidden="true">💡</div>
+            <div>
+                <h2>冒険に役立つ情報集</h2>
+                <p>
+                    アイテムの入手方法や育成のコツなど、
+                    知っておくと便利な情報をまとめています。
+                </p>
+            </div>
+        </section>
+
+        <section class="tips-browser" aria-label="TIPS検索">
+            <div class="section-heading">
+                <div>
+                    <p class="section-eyebrow">YOUR ADVENTURE NOTES</p>
+                    <h2>攻略メモ一覧</h2>
+                </div>
+                <span id="tipsCount" class="tips-count">4件</span>
+            </div>
+
+            <label class="search-box">
+                <span aria-hidden="true">🔎</span>
+                <input type="search" id="tipsSearch" placeholder="知りたい情報を探す..." autocomplete="off" aria-label="TIPSを検索">
+                <button type="button" id="clearSearch" class="clear-search" aria-label="検索をクリア" hidden>×</button>
+            </label>
+
+            <div class="category-list" aria-label="カテゴリで絞り込み">
+                <button type="button" class="category-button active" data-category="all"
+                    aria-pressed="true">すべて</button>
+
+                <button type="button" class="category-button" data-category="item" aria-pressed="false">🎁
+                    アイテム入手</button>
+
+                <button type="button" class="category-button" data-category="training" aria-pressed="false">📈
+                    育成</button>
+
+                <button type="button" class="category-button" data-category="other" aria-pressed="false">✨
+                    便利な小ネタ</button>
+            </div>
+
+            <p class="list-description">
+                気になるメモを選ぶと、詳しい手順を確認できます。
+            </p>
+
+            <div class="tips-list" id="tipsList">
+
+                <!-- TIPS 1：しあわせタマゴ入手方法 -->
+                <details class="tips-item" data-category="item"
+                    data-search="しあわせタマゴ しあわせたまご ラッキー ふくがん おみとおし どろぼう 15番道路 アイテム 入手">
+
+                    <summary class="tips-summary">
+                        <span class="tips-icon" aria-hidden="true">🥚</span>
+
+                        <span class="tips-summary-text">
+                            <span class="tips-category-label">🎁 アイテム入手</span>
+                            <span class="tips-title">しあわせタマゴ入手方法</span>
+                            <span class="tips-subtitle">
+                                ラッキーから入手する手順・準備するポケモン
+                            </span>
+                        </span>
+
+                        <span class="summary-arrow" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="tips-content">
+                        <div class="memo-heading">
+                            <span class="memo-label">ADVENTURE MEMO</span>
+                            <p>
+                                野生のラッキーが持っている
+                                「しあわせタマゴ」を狙うための手順です。
+                            </p>
+                        </div>
+
+                        <ol class="steps">
+                            <li>
+                                <span class="step-number">STEP 01</span>
+                                <h3>バタフリーを準備する（1番目）</h3>
+
+                                <div class="pokemon-preparation">
+                                    <span class="pokemon-emoji">🦋</span>
+                                    <div>
+                                        <strong>バタフリー</strong>
+                                        <p>Lv.25・ひんし状態</p>
+                                        <span class="ability-label">
+                                            特性：ふくがん
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 02</span>
+                                <h3>オドシシを準備する（2番目）</h3>
+
+                                <div class="pokemon-preparation">
+                                    <span class="pokemon-emoji">🦌</span>
+                                    <div>
+                                        <strong>オドシシ</strong>
+                                        <p>Lv.25</p>
+                                        <span class="ability-label">
+                                            特性：おみとおし
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 03</span>
+                                <h3>夜20時以降に15番道路へ</h3>
+                                <p>
+                                    昼はピジョンが出現するため、
+                                    夜20時以降にスプレーを使用してラッキーを探します。
+                                </p>
+
+                                <div class="tip-callout">
+                                    <span aria-hidden="true">🌙</span>
+                                    <span>
+                                        <strong>探索のタイミング</strong><br>
+                                        夜20時を目安に15番道路で探します。
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 04</span>
+                                <h3>持ち物を確認して入手する</h3>
+                                <p>
+                                    特性「おみとおし」でラッキーの持ち物を確認します。
+                                </p>
+
+                                <div class="acquisition-options">
+                                    <div class="option-card">
+                                        <span class="option-icon">⚾</span>
+                                        <div>
+                                            <strong>方法 A：捕まえる</strong>
+                                            <p>
+                                                ラッキーを捕獲して、
+                                                持ち物を入手します。
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="option-card">
+                                        <span class="option-icon">✋</span>
+                                        <div>
+                                            <strong>方法 B：どろぼう</strong>
+                                            <p>
+                                                技「どろぼう」を使って、
+                                                道具を入手します。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="memo-footer">
+                            <span aria-hidden="true">📌</span>
+                            <p>
+                                <strong>出発前の確認</strong><br>
+                                バタフリーとオドシシの順番、レベル、
+                                特性を確認してから出発しましょう。
+                            </p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- TIPS 2：徘徊ポケモン用のパラセクト育成 -->
+                <details class="tips-item" data-category="training"
+                    data-search="パラセクト パラス 徘徊ポケモン ライコウ エンテイ スイクン キノコのほうし キノコの胞子 みねうち 技マシン54 わざマシン54 コガネデパート すばやさ 素早さ 捕獲 育成">
+
+                    <summary class="tips-summary">
+                        <span class="tips-icon" aria-hidden="true">🍄</span>
+
+                        <span class="tips-summary-text">
+                            <span class="tips-category-label">📈 育成</span>
+                            <span class="tips-title">徘徊ポケモン用のパラセクト育成</span>
+                            <span class="tips-subtitle">
+                                キノコのほうし・みねうちで捕獲をサポート
+                            </span>
+                        </span>
+
+                        <span class="summary-arrow" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="tips-content">
+                        <div class="memo-heading">
+                            <span class="memo-label">ADVENTURE MEMO</span>
+                            <p>
+                                ライコウなどの徘徊ポケモンを捕まえるために、
+                                パラセクトを育成する手順です。
+                            </p>
+                        </div>
+
+                        <ol class="steps">
+                            <li>
+                                <span class="step-number">STEP 01</span>
+                                <h3>パラスをLv.17まで育てる</h3>
+
+                                <div class="pokemon-preparation">
+                                    <span class="pokemon-emoji">🍄</span>
+                                    <div>
+                                        <strong>パラス</strong>
+                                        <p>Lv.17で「キノコのほうし」を習得</p>
+                                        <span class="ability-label">
+                                            ねむり状態にして捕獲をサポート
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 02</span>
+                                <h3>Lv.24でパラセクトに進化させる</h3>
+
+                                <div class="pokemon-preparation">
+                                    <span class="pokemon-emoji">🍄</span>
+                                    <div>
+                                        <strong>パラセクト</strong>
+                                        <p>進化後も「キノコのほうし」を活用</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 03</span>
+                                <h3>「みねうち」を覚えさせる</h3>
+
+                                <div class="tip-callout">
+                                    <span aria-hidden="true">🛒</span>
+                                    <span>
+                                        <strong>わざマシン54</strong><br>
+                                        コガネデパートで購入して、
+                                        技「みねうち」を覚えさせます。
+                                    </span>
+                                </div>
+
+                                <p>
+                                    相手のHPを1残して攻撃できるため、
+                                    捕獲時のHP調整に役立ちます。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 04</span>
+                                <h3>レベルを上げて素早さを補う</h3>
+
+                                <p>
+                                    パラセクトは素早さが非常に低いため、
+                                    徘徊ポケモンへの対応を考えて高レベルまで育てておきます。
+                                </p>
+
+                                <div class="tip-callout">
+                                    <span aria-hidden="true">⚠️</span>
+                                    <span>
+                                        <strong>おすすめの育成方針</strong><br>
+                                        ・努力値はすばやさに252振る（インドメタシンを使うと楽）<br>
+                                        ・Lv.100まで育成する<br>
+                                        ・性格は「おくびょう」にする
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="memo-footer">
+                            <span aria-hidden="true">📌</span>
+                            <p>
+                                <strong>出発前の確認</strong><br>
+                                「キノコのほうし」と「みねうち」を覚えているか、
+                                パラセクトのレベルが十分か確認しましょう。
+                            </p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- TIPS 3：ライコウ・エンテイの探し方 -->
+                <details class="tips-item" data-category="other"
+                    data-search="ライコウ エンテイ 徘徊ポケモン 見つけ方 探し方 効率 エンジュシティ 37番道路 マップ スプレー パラセクト">
+
+                    <summary class="tips-summary">
+                        <span class="tips-icon" aria-hidden="true">⚡</span>
+
+                        <span class="tips-summary-text">
+                            <span class="tips-category-label">✨ 便利な小ネタ</span>
+                            <span class="tips-title">ライコウ・エンテイの効率のいい見つけ方</span>
+                            <span class="tips-subtitle">
+                                マップを確認しながらエリアを切り替えて探す
+                            </span>
+                        </span>
+
+                        <span class="summary-arrow" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="tips-content">
+                        <div class="memo-heading">
+                            <span class="memo-label">ADVENTURE MEMO</span>
+                            <p>
+                                マップで徘徊ポケモンの位置を確認しながら、
+                                エンジュシティと37番道路を行き来して探す方法です。
+                            </p>
+                        </div>
+
+                        <ol class="steps">
+                            <li>
+                                <span class="step-number">STEP 01</span>
+                                <h3>エンジュシティの南側出口に立つ</h3>
+                                <p>
+                                    37番道路へ出られる場所で待機します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 02</span>
+                                <h3>マップで対象の位置を確認する</h3>
+                                <p>
+                                    マップ機能を開き、ライコウまたはエンテイが
+                                    どのエリアにいるか確認します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 03</span>
+                                <h3>エンジュシティと37番道路を行き来する</h3>
+                                <p>
+                                    境界を1歩ずつ越えて画面を切り替え、
+                                    エリアを行き来します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 04</span>
+                                <h3>マップを繰り返し確認する</h3>
+                                <p>
+                                    エリアを切り替えるたびにマップを開き、
+                                    自分のいる37番道路に対象が重なるまで繰り返します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 05</span>
+                                <h3>草むらで遭遇する</h3>
+                                <p>
+                                    対象が37番道路にいることを確認したら、
+                                    スプレーを使用して草むらに入ります。
+                                </p>
+
+                                <div class="tip-callout">
+                                    <span aria-hidden="true">🍄</span>
+                                    <span>
+                                        <strong>パラセクトで捕獲する場合</strong><br>
+                                        「あまいかおり」を覚えたナゾノクサを用意します。
+                                        草むらを歩き回らずに「あまいかおり」を使って、
+                                        徘徊ポケモンとの遭遇を狙いましょう。
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="memo-footer">
+                            <span aria-hidden="true">📌</span>
+                            <p>
+                                <strong>対象の位置を確認してから移動</strong><br>
+                                マップで位置を確認し、エリアの切り替えを繰り返して
+                                遭遇できるタイミングを狙いましょう。
+                            </p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- TIPS 4：ラティアス・ラティオスの探し方 -->
+                <details class="tips-item" data-category="other"
+                    data-search="ラティアス ラティオス 徘徊ポケモン 見つけ方 探し方 効率 ヤマブキシティ 7番道路 マップ スプレー パラセクト">
+
+                    <summary class="tips-summary">
+                        <span class="tips-icon" aria-hidden="true">🪽</span>
+
+                        <span class="tips-summary-text">
+                            <span class="tips-category-label">✨ 便利な小ネタ</span>
+                            <span class="tips-title">ラティアス・ラティオスの効率のいい見つけ方</span>
+                            <span class="tips-subtitle">
+                                ヤマブキシティと7番道路を行き来して探す
+                            </span>
+                        </span>
+
+                        <span class="summary-arrow" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="tips-content">
+                        <div class="memo-heading">
+                            <span class="memo-label">ADVENTURE MEMO</span>
+                            <p>
+                                マップで対象の位置を確認しながら、
+                                ヤマブキシティと7番道路を行き来して探す方法です。
+                            </p>
+                        </div>
+
+                        <ol class="steps">
+                            <li>
+                                <span class="step-number">STEP 01</span>
+                                <h3>ヤマブキシティの西側ゲートに立つ</h3>
+                                <p>
+                                    7番道路へ出られる西側の出口で待機します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 02</span>
+                                <h3>マップで対象の位置を確認する</h3>
+                                <p>
+                                    マップ機能を開き、ラティアスまたはラティオスが
+                                    どのエリアにいるか確認します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 03</span>
+                                <h3>ヤマブキシティと7番道路を行き来する</h3>
+                                <p>
+                                    境界を1歩ずつ越えて画面を切り替え、
+                                    エリアを行き来します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 04</span>
+                                <h3>マップを繰り返し確認する</h3>
+                                <p>
+                                    エリアを切り替えるたびにマップを開き、
+                                    自分のいる7番道路に対象が重なるまで繰り返します。
+                                </p>
+                            </li>
+
+                            <li>
+                                <span class="step-number">STEP 05</span>
+                                <h3>草むらで遭遇する</h3>
+                                <p>
+                                    対象が7番道路にいることを確認したら、
+                                    スプレーを使用して草むらに入ります。
+                                </p>
+
+                                <div class="tip-callout">
+                                    <span aria-hidden="true">🍄</span>
+                                    <span>
+                                        <strong>パラセクトで捕獲する場合</strong><br>
+                                        「あまいかおり」を覚えたナゾノクサを用意します。
+                                        草むらを歩き回らずに「あまいかおり」を使って、
+                                        徘徊ポケモンとの遭遇を狙いましょう。
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="memo-footer">
+                            <span aria-hidden="true">📌</span>
+                            <p>
+                                <strong>対象の位置を確認してから移動</strong><br>
+                                マップで位置を確認し、エリアの切り替えを繰り返して
+                                遭遇できるタイミングを狙いましょう。
+                            </p>
+                        </div>
+                    </div>
+                </details>
+
+            </div>
+
+            <div id="noResults" class="no-results" hidden>
+                <span aria-hidden="true">🔍</span>
+                <h3>メモが見つかりません</h3>
+                <p>検索ワードやカテゴリを変更してみてください。</p>
+                <button type="button" id="resetFilters" class="reset-button">
+                    絞り込みをリセット
+                </button>
+            </div>
+        </section>
+
+        <div class="bottom-navigation">
+            <a href="index.html" class="home-button">
+                ← メニューへ戻る
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>HGSS 非公式攻略ツール</p>
+        <p>あなたの冒険に役立つ情報を少しずつ追加していきます。</p>
+    </footer>
+</body>
+
+</html>
