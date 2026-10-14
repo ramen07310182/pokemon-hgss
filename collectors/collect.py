@@ -18,7 +18,7 @@ API = "https://pokeapi.co/api/v2"
 MAX_POKEMON = 493
 VERSION_GROUP = "heartgold-soulsilver"
 VERSIONS = ("heartgold", "soulsilver")
-DATA_VERSION = 3
+DATA_VERSION = 4
 
 LIMIT = min(
     MAX_POKEMON,
@@ -171,17 +171,7 @@ def old_types(pokemon):
 
 
 def old_stats(pokemon):
-    """
-    HGSS（第4世代）の種族値を取得する。
-
-    現在の種族値を土台にして、過去の種族値データに
-    含まれている項目だけを上書きする。
-
-    過去データが一部の能力値しか含んでいない場合も、
-    ほかの能力値が欠落しないようにする。
-    """
-
-    # まず現在の種族値をすべて取得する
+    """HGSS（第4世代）の種族値を取得する。"""
     stats = {
         item["stat"]["name"]: item["base_stat"]
         for item in pokemon.get("stats", [])
@@ -206,7 +196,6 @@ def old_stats(pokemon):
         ) if x["generation"]["name"] in generations else 999
     )
 
-    # HGSSで使用する過去世代のデータを探す
     for record in records:
         gen = record["generation"]["name"]
 
@@ -214,16 +203,12 @@ def old_stats(pokemon):
             gen in generations
             and generations.index(gen) >= 3
         ):
-            # 重要：
-            # 過去データに含まれる項目だけを更新する。
-            # stats 全体を置き換えると、欠落項目が0になる。
             for item in record.get("stats", []):
                 stat_name = item["stat"]["name"]
                 stats[stat_name] = item["base_stat"]
 
             break
 
-    # 6項目すべてを必ず用意する
     required_stats = [
         "hp",
         "attack",
@@ -246,6 +231,39 @@ def old_stats(pokemon):
 
     return {
         name: stats[name]
+        for name in required_stats
+    }
+
+
+def collect_effort(pokemon):
+    """PokeAPIから各能力値の努力値を取得する。"""
+    required_stats = [
+        "hp",
+        "attack",
+        "defense",
+        "special-attack",
+        "special-defense",
+        "speed"
+    ]
+
+    effort = {
+        item["stat"]["name"]: item["effort"]
+        for item in pokemon.get("stats", [])
+    }
+
+    missing = [
+        name for name in required_stats
+        if name not in effort
+    ]
+
+    if missing:
+        raise ValueError(
+            f"{pokemon.get('name', '不明')} の努力値が不足しています: "
+            f"{', '.join(missing)}"
+        )
+
+    return {
+        name: effort[name]
         for name in required_stats
     }
 
@@ -359,8 +377,6 @@ def get_area_name(area_ref, memo):
         return memo[key]
 
     area = get_json(area_ref["url"])
-
-    # エリア自体に日本語名があれば優先
     area_ja = localized_name(area)
 
     if area_ja and area_ja != area.get("name"):
@@ -378,7 +394,6 @@ def get_area_name(area_ref, memo):
         location, location_ref["name"]
     )
 
-    # エリア名から親ロケーション名を除去
     area_slug = area["name"]
     prefix = location_ref["name"]
 
@@ -606,6 +621,7 @@ def collect_one(pokemon_id, memo, area_memo):
         "height": pokemon["height"] / 10,
         "weight": pokemon["weight"] / 10,
         "stats": old_stats(pokemon),
+        "effort": collect_effort(pokemon),
         "sprite": sprite,
         "moves": collect_moves(pokemon, memo),
         "encounters": collect_encounters(
@@ -641,7 +657,6 @@ def main():
             OUTPUT.read_text(encoding="utf-8")
         )
 
-        # データバージョンが異なる場合は全件再生成
         if existing.get("data_version") == DATA_VERSION:
             pokemon_list = [
                 p for p in existing.get("pokemon", [])

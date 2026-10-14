@@ -245,6 +245,7 @@ const johtoGymRematches = [
                 ["のしかかり", "メロメロ", "ねごと", "ねむる"])
         ]
     },
+
     {
         id: "morty-rematch",
         name: "マツバ",
@@ -371,8 +372,7 @@ for (const trainer of johtoGymRematches) {
 }
 
 /* =========================================================
-   カントー地方ジムリーダー：再戦
-   ※通常戦は本データには未収録
+   カントー地方ジムリーダー：再戦スケジュール
    ========================================================= */
 
 const kantoRematchSchedule = [
@@ -398,6 +398,7 @@ const kantoRematchSchedule = [
  */
 
 const kantoGymNormal = [
+
     {
         id: "kanto-takeshi-normal",
         name: "タケシ",
@@ -558,6 +559,7 @@ for (const trainer of kantoGymNormal) {
    ========================================================= */
 
 const kantoGymRematches = [
+
     {
         id: "kanto-takeshi-rematch",
         name: "タケシ",
@@ -716,8 +718,8 @@ const kantoGymRematches = [
         id: "kanto-green-rematch",
         name: "グリーン",
         specialty: "バランス型",
-        callDay: "",
-        callTime: "",
+        callDay: "日曜日",
+        callTime: "夜 20:00～翌03:59",
         strategy: "6匹すべてが強力です。複数タイプの技を用意し、相手ごとに弱点を突きましょう。",
         team: [
             P(103, "ナッシー", 67, ["くさ", "エスパー"],
@@ -743,11 +745,9 @@ for (const trainer of kantoGymRematches) {
         categoryLabel: "ジムリーダー",
         round: "rematch",
         roundLabel: "再戦",
-        location: trainer.name === "グリーン"
-            ? "トキワシティ・ジム"
-            : "ヤマブキシティ・格闘道場",
+        location: "ヤマブキシティ・格闘道場",
         condition: trainer.name === "グリーン"
-            ? "カントー地方のジムリーダーです。グリーンとの対戦条件をゲーム内で確認してください。"
+            ? "① トキワシティのジムでグリーンに勝利する。② マサラタウンのグリーンの家で、ナナミにポケモンのけづくろいを合計7回してもらう（15:00～15:59、1日1回　※けづくろい7回は初回のみ）。③ ナナミからグリーンの電話番号を教えてもらう。④ 日曜日の夜（20:00～翌03:59）にグリーンへ電話する。⑤ ヤマブキシティの格闘道場で再戦する。"
             : "電話番号を登録し、指定された曜日・時間に電話して再戦を申し込んでください。",
         source: SOURCES.rematch
     });
@@ -758,6 +758,7 @@ for (const trainer of kantoGymRematches) {
    ========================================================= */
 
 const eliteNormal = [
+
     {
         id: "will-normal",
         name: "イツキ",
@@ -935,6 +936,7 @@ const eliteRematches = [
                 ["いわなだれ", "じしん", "すなあらし", "アイアンテール"])
         ]
     },
+
     {
         id: "karen-rematch",
         name: "カリン",
@@ -1059,16 +1061,15 @@ function pokemonSprite(id) {
     return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 }
 
-
 function renderPokemon(pokemon) {
     const moves = Array.isArray(pokemon.moves) ? pokemon.moves : [];
+
     const moveHTML = moves.length
         ? `<ul class="move-list">${moves.map(move =>
             `<li>${escapeHTML(move)}</li>`
         ).join("")}</ul>`
         : `<p class="move-unknown">技構成は未確認です。参考資料を確認してください。</p>`;
 
-    // タイプ名とCSSクラス名を対応させる
     const typeClassMap = {
         "ノーマル": "normal",
         "ほのお": "fire",
@@ -1092,12 +1093,10 @@ function renderPokemon(pokemon) {
 
     const types = Array.isArray(pokemon.types) ? pokemon.types : [];
 
-    // 複合タイプの場合、カード全体は先頭のタイプを基準に色分け
     const primaryType = types.length
         ? (typeClassMap[types[0]] || "unknown")
         : "unknown";
 
-    // タイプごとの色付きラベルを生成
     const typeHTML = types.length
         ? types.map(type => {
             const typeClass = typeClassMap[type] || "unknown";
@@ -1209,6 +1208,73 @@ function searchableText(trainer) {
     ].join(" ").toLowerCase();
 }
 
+/* =========================================================
+   ジムリーダー再戦・電話受付スケジュール
+   ========================================================= */
+
+function renderRematchSchedule() {
+    const tableBody = document.getElementById("rematchScheduleBody");
+    if (!tableBody) return;
+
+    const days = ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"];
+
+    const periods = [
+        { key: "朝", label: "朝" },
+        { key: "昼", label: "昼" },
+        { key: "夜", label: "夜" }
+    ];
+
+    const scheduled = trainers.filter(trainer =>
+        trainer.category === "gym" &&
+        trainer.round === "rematch" &&
+        trainer.callDay && trainer.callTime
+    );
+
+    tableBody.innerHTML = days.map((day, dayIndex) => {
+        const cells = periods.map(period => {
+            const matches = scheduled.filter(trainer =>
+                trainer.callDay === day && trainer.callTime.startsWith(period.key)
+            );
+
+            if (!matches.length) return '<td class="schedule-empty">—</td>';
+
+            return `<td>${matches.map(trainer =>
+                `<a class="schedule-trainer" href="#${escapeHTML(trainer.id)}" data-trainer-id="${escapeHTML(trainer.id)}">${escapeHTML(trainer.name)}</a>`
+            ).join("")}</td>`;
+        }).join("");
+
+        return `<tr data-day="${dayIndex}"><th scope="row">${day}</th>${cells}</tr>`;
+    }).join("");
+
+    const currentDay = (new Date().getDay() + 6) % 7;
+    const todayRow = tableBody.querySelector(`tr[data-day="${currentDay}"]`);
+
+    if (todayRow) todayRow.classList.add("schedule-today");
+
+    tableBody.addEventListener("click", event => {
+        const link = event.target.closest("[data-trainer-id]");
+        if (!link) return;
+
+        event.preventDefault();
+
+        // 絞り込みでカードが非表示になっている場合も移動できるようにする
+        searchInput.value = "";
+        battleFilter.value = "all";
+        categoryFilter.value = "all";
+        renderTrainers();
+
+        const card = document.getElementById(link.dataset.trainerId);
+
+        if (card instanceof HTMLDetailsElement) {
+            card.open = true;
+
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+                card.scrollIntoView({ behavior: "smooth", block: "start" });
+            }));
+        }
+    });
+}
+
 function renderTrainers() {
     const query = searchInput.value.trim().toLowerCase();
     const round = battleFilter.value;
@@ -1255,7 +1321,7 @@ resetFilters.addEventListener("click", () => {
 });
 
 renderTrainers();
-
+renderRematchSchedule();
 
 /* =========================================================
    トレーナーを一度に1人だけ展開できるようにする
@@ -1290,4 +1356,3 @@ document.addEventListener("toggle", event => {
         });
     });
 }, true);
-

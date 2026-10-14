@@ -7,7 +7,7 @@
     <meta name="description" content="ポケットモンスター ハートゴールド・ソウルシルバーのジムリーダー、四天王・チャンピオン、レッドの攻略情報">
     <title>トレーナー攻略 | ポケモンHGSS攻略</title>
     <link rel="stylesheet" href="css/style.css?v=3">
-    <link rel="stylesheet" href="css/trainers.css?v=3">
+    <link rel="stylesheet" href="css/trainers.css?v=4">
 </head>
 
 <body>
@@ -47,6 +47,27 @@
             <p class="section-description">
                 ジョウト・カントーのジムリーダー。通常戦と再戦は別々に表示します。
             </p>
+
+            <section class="rematch-schedule" aria-labelledby="rematchScheduleTitle">
+                <h3 id="rematchScheduleTitle">ジムリーダー再戦・電話受付スケジュール</h3>
+                <p class="schedule-note">※ この表は、ジムリーダーに<strong>電話をかけて再戦を申し込める曜日・時間帯</strong>をまとめたものです。実際にバトルする時間ではありません。
+                </p>
+                <div class="schedule-scroll" tabindex="0" role="region" aria-label="再戦の電話受付時間表（横スクロール可能）">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">曜日</th>
+                                <th scope="col">朝 <span>（4:00～9:59）</span></th>
+                                <th scope="col">昼 <span>（10:00～19:59）</span></th>
+                                <th scope="col">夜 <span>（20:00～翌3:59）</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="rematchScheduleBody"></tbody>
+                    </table>
+                </div>
+                <p class="schedule-help">名前をタップすると再戦用の攻略カードを開きます。※ グリーンの再戦は通常の電話受付とは条件が異なります。</p>
+            </section>
+
             <div class="trainer-list" id="gymList"></div>
         </section>
 
@@ -69,26 +90,17 @@
         <section class="sources-section">
             <h2>参考サイト</h2>
             <ul>
-                <li>
-                    <a href="https://w.atwiki.jp/hgss/pages/46.html" target="_blank" rel="noopener noreferrer">
-                        HGSS攻略Wiki：強敵トレーナー攻略
-                    </a>
-                </li>
-                <li>
-                    <a href="https://w.atwiki.jp/hgss/pages/47.html" target="_blank" rel="noopener noreferrer">
-                        HGSS攻略Wiki：強化版トレーナー攻略
-                    </a>
-                </li>
-                <li>
-                    <a href="https://w.atwiki.jp/hgss/pages/113.html" target="_blank" rel="noopener noreferrer">
-                        HGSS攻略Wiki：強敵トレーナー攻略2
-                    </a>
-                </li>
+                <li><a href="https://w.atwiki.jp/hgss/pages/46.html" target="_blank"
+                        rel="noopener noreferrer">HGSS攻略Wiki：強敵トレーナー攻略</a></li>
+                <li><a href="https://w.atwiki.jp/hgss/pages/47.html" target="_blank"
+                        rel="noopener noreferrer">HGSS攻略Wiki：強化版トレーナー攻略</a></li>
+                <li><a href="https://w.atwiki.jp/hgss/pages/113.html" target="_blank"
+                        rel="noopener noreferrer">HGSS攻略Wiki：強敵トレーナー攻略2</a></li>
             </ul>
         </section>
     </main>
 
-    <script src="js/trainers.js"></script>
+    <script src="js/trainers.js?v=4"></script>
 </body>
 
 </html>

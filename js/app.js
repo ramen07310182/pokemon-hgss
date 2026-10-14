@@ -425,7 +425,6 @@ async function initialize() {
         }
 
         // 進化情報のポケモン名をクリックしたときの処理
-        // 図鑑番号からデータを検索するので、個別のポケモン設定は不要
         if ($("pokemonDetail")) {
             $("pokemonDetail").addEventListener("click", event => {
                 const button = event.target.closest(
@@ -575,6 +574,69 @@ function renderStats(p) {
           </div>
         `;
     }).join("")}
+    </section>
+  `;
+}
+
+// ========================================
+// 努力値
+// ========================================
+
+function renderEffort(p) {
+    const effort = p.effort;
+
+    // 古いJSONなど、努力値データが存在しない場合
+    if (!effort || typeof effort !== "object") {
+        return `
+      <section class="detail-section">
+        <h3>努力値</h3>
+        <p>努力値データがありません。</p>
+        <p class="note">
+          データ取得プログラムを再実行して、
+          pokemon.jsonを更新してください。
+        </p>
+      </section>
+    `;
+    }
+
+    const total = Object.keys(STATS).reduce(
+        (sum, key) => sum + Number(effort[key] || 0),
+        0
+    );
+
+    return `
+    <section class="detail-section">
+      <h3>努力値（合計 ${total}）</h3>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>能力</th>
+              <th>獲得努力値</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${Object.entries(STATS).map(([key, label]) => {
+        const value = Number(effort[key] || 0);
+
+        return `
+                  <tr>
+                    <td>${label}</td>
+                    <td>
+                      <strong>${value > 0 ? "+" : ""}${value}</strong>
+                    </td>
+                  </tr>
+                `;
+    }).join("")}
+          </tbody>
+        </table>
+      </div>
+
+      <p class="note">
+        このポケモンを倒したときに獲得できる努力値です。
+        表示値は1匹あたりの獲得量です。
+      </p>
     </section>
   `;
 }
@@ -920,6 +982,7 @@ function openDetail(p) {
     </section>
 
     ${renderStats(p)}
+    ${renderEffort(p)}
     ${renderEvolution(p)}
     ${renderMoves(p)}
     ${renderEncounters(p)}
