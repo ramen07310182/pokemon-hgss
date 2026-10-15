@@ -1108,3 +1108,99 @@ button:focus-visible {
     font-size: 0.88rem;
     line-height: 1.7;
 }
+
+/* ========================================
+   ジムリーダー電話番号の入手方法
+   ======================================== */
+.phone-guide {
+    margin: 18px 0 24px;
+    padding: 16px;
+    border: 1px solid var(--battle-border);
+    border-radius: 12px;
+    background: var(--battle-panel);
+}
+
+.phone-guide h3 {
+    margin: 0 0 12px;
+    color: var(--battle-gold);
+    font-size: 1.1rem;
+}
+
+.phone-guide-intro {
+    margin: 0 0 14px;
+    color: #ffe7ac;
+    line-height: 1.7;
+}
+
+.phone-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.phone-table {
+    width: 100%;
+    min-width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.phone-table th,
+.phone-table td {
+    padding: 10px 12px;
+    border: 1px solid #52647a;
+    vertical-align: top;
+}
+
+.phone-table thead th {
+    background: #35445a;
+    color: #fff0c6;
+    white-space: nowrap;
+}
+
+.phone-table tbody td {
+    background: #1d2b3d;
+}
+
+.phone-table tbody tr:nth-child(even) td {
+    background: #243348;
+}
+
+.phone-table tbody tr.phone-region-start td {
+    border-top: 3px solid var(--battle-gold);
+}
+
+.phone-table tbody td:nth-child(1),
+.phone-table tbody td:nth-child(2),
+.phone-table tbody td:nth-child(3) {
+    white-space: nowrap;
+}
+
+.phone-table tbody td:nth-child(2) {
+    color: #ffe4a0;
+    font-weight: 800;
+}
+
+.phone-notes {
+    margin-top: 14px;
+    padding: 12px 14px;
+    border: 1px solid #85683a;
+    border-radius: 8px;
+    background: #342f28;
+    color: #ffe8b0;
+    line-height: 1.75;
+}
+
+.phone-notes p {
+    margin: 0 0 9px;
+}
+
+.phone-notes p:last-child {
+    margin-bottom: 0;
+}
+
+.phone-table-scroll:focus-visible {
+    outline: 2px solid var(--battle-gold);
+    outline-offset: 2px;
+}
