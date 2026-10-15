@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#24334b">
     <title>ポケモン育成道場 | HGSS 攻略ツール</title>
-    <link rel="stylesheet" href="css/training.css">
-    <script src="js/training.js" defer></script>
+    <link rel="stylesheet" href="css/training.css?v=2">
+    <script src="js/training.js?v=2" defer></script>
 </head>
 
 <body>
@@ -183,36 +183,9 @@
                     <h2>努力値の特訓メニュー</h2>
                 </div>
             </div>
-
-            <p class="description">
-                育成の進行度に合わせて、努力値稼ぎにおすすめの
-                野生ポケモンと出現場所を探せます。
-            </p>
-
-            <div class="stage-selector">
-                <label class="stage-option">
-                    <input type="radio" name="effortStage" value="early" checked>
-                    <span class="stage-card stage-early">
-                        <span class="stage-icon">🌱</span>
-                        <span class="stage-title">ジョウト序盤</span>
-                        <span class="stage-caption">旅の途中でコツコツ特訓</span>
-                    </span>
-                </label>
-
-                <label class="stage-option">
-                    <input type="radio" name="effortStage" value="postgame">
-                    <span class="stage-card stage-postgame">
-                        <span class="stage-icon">🏆</span>
-                        <span class="stage-title">殿堂入り後</span>
-                        <span class="stage-caption">クリア後の場所も活用</span>
-                    </span>
-                </label>
-            </div>
-
+            <p class="description">参考サイト掲載のポケモンについて、出現場所・方法・レベル・備考を確認できます。</p>
             <div class="filter-grid">
-                <label>
-                    <span class="label-icon">★</span>
-                    鍛えたい能力
+                <label><span class="label-icon">★</span>鍛えたい能力
                     <select id="effortStat">
                         <option value="hp">HP</option>
                         <option value="attack">攻撃</option>
@@ -222,10 +195,7 @@
                         <option value="speed">素早さ</option>
                     </select>
                 </label>
-
-                <label>
-                    <span class="label-icon">◆</span>
-                    バージョン
+                <label><span class="label-icon">◆</span>バージョン
                     <select id="effortVersion">
                         <option value="both">HG・SS両方</option>
                         <option value="heartgold">ハートゴールド</option>
@@ -233,19 +203,13 @@
                     </select>
                 </label>
             </div>
-
-            <div class="info-box">
-                <strong>🥋 特訓のポイント</strong>
-                <p id="effortStageDescription">
-                    序盤に訪れやすい道路や施設を優先して表示します。
-                </p>
+            <div class="info-box"><strong>🥋 特訓のポイント</strong>
+                <p>参考サイトの掲載情報に限定しています。備考にある他のポケモンの出現にも注意してください。</p>
             </div>
-
-            <div id="effortStatus" class="status-message" role="status">
-                ポケモンデータを読み込んでいます……
-            </div>
-
+            <div id="effortStatus" class="status-message" role="status">特訓スポットを表示します。</div>
             <div id="effortResults" class="recommendation-list"></div>
+            <p class="small-note">出典：<a href="https://kouryakuwiki.com/pokedp/942.html" target="_blank"
+                    rel="noopener noreferrer">努力値稼ぎ一覧</a></p>
         </section>
 
         <section class="panel calculator-panel">
